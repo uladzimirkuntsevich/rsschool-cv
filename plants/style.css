@@ -1,0 +1,580 @@
+:root {
+    max-width: 1440px;
+    margin: 0 auto;
+    background: #FFFFFF;
+}
+
+@media (min-width: 1440px) {
+    :root {
+        width: 1440px;
+        margin: 0 auto;
+        background: #FFFFFF;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0 0;
+    background-color: #EDF2EC;
+}
+
+section {
+    margin: 0 0;
+    display: flex;
+}
+
+.text-green {
+    color: #499A18;
+}
+
+.text-orange {
+    color: #E06733;
+}
+
+.header {
+    width: 1440px;
+    height: 134px;
+    margin: 0 0;
+    display: flex;
+    background-color: #EDF2EC;
+}
+
+.header-div {
+    /*position: relative;*/
+    /*flex-direction: row;*/
+    width: 1220px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin: 42px auto;
+}
+
+.header-div-logo {
+    width: 80px;
+    height: 21px;
+}
+
+
+.header-div-list {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-between;
+    width: 452px;
+    padding: 0;
+}
+
+.header-div-list-item {
+    font-family: "Inika", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 50px;
+}
+
+
+.welcome {
+    width: 1440px;
+    height: 532px;
+    background-color: #EDF2EC;
+}
+
+.welcome-div {
+    width: 1222px;
+    margin: 62px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #EDF2EC;
+}
+
+
+.welcome-div-picture {
+    width: 448px;
+    height: 408px;
+
+}
+
+.welcome-div-text {
+    width: 549px;
+    height: 340px;
+    margin: 36px 0 38px 0;
+}
+
+.welcome-div-text-h1 {
+    height: 101px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #717171;
+    letter-spacing: 0.6px;
+}
+
+.welcome-div-text-paragraph {
+    margin: 42px 0 48px 0;
+    width: 525px;
+    height: 105px;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    letter-spacing: 0.6px;
+
+    color: #636060;
+}
+
+.welcome-div-text-button {
+    width: 158px;
+    height: 44px;
+    border: 2px solid #E06733;
+    border-radius: 10px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+/*.welcome-div-text-button-text {*/
+/*    width: 104px;*/
+/*    height: 16px;*/
+/*    !*margin: 14px auto;*!*/
+/*    font-family: 'Inter', sans-serif;*/
+/*    font-style: normal;*/
+/*    font-weight: 400;*/
+/*    font-size: 16px;*/
+/*    line-height: 20px;*/
+
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    text-align: center;*/
+
+/*    color: #000000;*/
+/*}*/
+
+.about {
+    background-color: #FFFFFF;
+    width: 1440px;
+    height: 666px;
+}
+
+.about-div {
+    width: 1222px;
+    height: 479px;
+    margin: 93px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.about-div-text {
+    width: 605px;
+    height: 350px;
+    display: flex;
+    margin-top: 68px;
+    flex-direction: column;
+    justify-content: space-between;
+    letter-spacing: 0.6px;
+}
+
+.about-div-text-h2 {
+    margin: 0 0;
+    width: 463px;
+    height: 102px;
+    font-family: 'Inika', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    letter-spacing: 3px;
+}
+
+.about-div-text-paragraph {
+    margin-top: 40px;
+    margin-bottom: 62px;
+    width: 605px;
+    height: 208px;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #636060;
+}
+
+.about-div-picture {
+    width: 464px;
+    height: 479px;
+}
+
+
+.service {
+    background-color: #EDF2EC;
+    width: 1440px;
+    height: 1300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.service-div-service_description {
+    width: 1007px;
+    height: 94px;
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 324px 90px 109px;
+}
+
+.service-div-service_description-h2 {
+    width: 306px;
+    height: 94px;
+
+    font-family: 'Inika', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    margin: 0;
+}
+
+.service-div-service_description-buttons {
+    width: 559px;
+    height: 50px;
+    margin-top: 29px;
+    margin-bottom: 15px;
+}
+
+.service-div-service_description-buttons-list {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.service-div-service_description-buttons-list-item {
+    box-sizing: border-box;
+
+    width: 161px;
+    height: 50px;
+
+    border: 1px solid #E06733;
+    border-radius: 5px;
+
+    font-family: 'Inika', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+
+    background-color: #EDF2EC;
+    color: #E06733;
+}
+
+.service-divs-services {
+    width: 1222px;
+    height: 955px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.service-divs-services-list-item-div {
+    box-sizing: border-box;
+    width: 330px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px #E3E1D5 solid;
+    border-radius: 10px;
+}
+
+
+.service-divs-services-list {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    /*justify-content: center;*/
+    padding: 0;
+    margin: 0;
+}
+
+
+.service-divs-services-list-item {
+    margin: 0 auto;
+
+}
+
+.service-divs-services-list-item-div-image {
+    width: 330px;
+    height: 350px;
+}
+
+.picture-title{
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    margin: 0;
+}
+
+.picture-text {
+    text-align: center;
+    margin: 10px auto;
+}
+
+.service-divs-services-list-item-div-figcaption {
+    margin: 0;
+    width: 330px;
+    height: 100px;
+}
+
+
+.prices {
+    width: 1440px;
+    height: 560px;
+    margin: 0;
+    background-color: #FFFFFF;
+}
+
+.prices-div {
+    width: 1222px;
+    height: 405px;
+    margin: 40px 109px 115px 109px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.prices-div-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 332px;
+    height: 391px;
+}
+
+.prices-div-list-div {
+    width: 332px;
+    height: 282px;
+    justify-content: center;
+    border: 1px solid #E3E1D5;
+    border-radius: 20px;
+}
+
+.prices-div-list-ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 250px;
+    height: 214px;
+    padding: 0;
+    margin: 34px auto;
+}
+
+.prices-div-list-ul-item {
+    width: 250px;
+    height: 50px;
+    text-align: left;
+    padding-left: 20px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    /*line-height: 20px;*/
+    /* or 100% */
+    background: #EDF2EC;
+    border-radius: 20px;
+
+    color: #000000;
+}
+
+.prices-div-list-header {
+    margin: 0 0 60px;
+    width: 135px;
+    height: 49px;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+
+    color: #000000;
+
+}
+
+.prices-div-contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    /*width: 452px;*/
+    /*height: 191px;*/
+}
+
+.prices-div-contacts-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 452px;
+    height: 191px;
+}
+
+.prices-div-contacts-div-h2 {
+    width: 452px;
+    height: 103px;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: right;
+    letter-spacing: 0.4px;
+    color: #000000;
+}
+
+.prices-div-contacts-div-button {
+    width: 162px;
+    height: 50px;
+
+    border: 1px solid #E06733;
+    border-radius: 5px;
+
+    font-family: 'Inika',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #E06733;
+}
+
+.prices-div-contacts-image {
+    width: 152px;
+    height: 175px;
+}
+
+
+
+.contact-us {
+    /*position: relative;*/
+    width: 1440px;
+    height: 550px;
+    background-color: #EDF2EC;
+}
+.contact-us-h2 {
+    margin-block-end: 0;
+    margin-block-start: 0;
+    margin-top: 60px;
+    margin-left: 113px;
+    margin-right: 32px;
+    font-family: 'Inika', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    /*line-height: 52px;*/
+}
+
+.contact-us-picture {
+    /*position: relative;*/
+    width: 400px;
+    height: 497px;
+    margin-left: 109px;
+    margin-top: 53px;
+}
+
+.contact-us-city {
+    width: 450px;
+    height: 50px;
+    margin-top: 148px;
+    margin-left: 30px;
+    margin-right: 109px;
+}
+
+.contact-us-city-button {
+    background: #D6E7D2;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0;
+    width: 450px;
+    height: 50px;
+    padding: 0;
+    border: none;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    padding-left: 20px;
+    color: #717171;
+}
+
+
+.footer {
+    margin-bottom: 0;
+    width: 1440px;
+    height: 130px;
+    background: #FFFFFF;
+    margin-top: 0;
+}
+
+.footer-div {
+    width: 1222px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 40px auto;
+}
+
+.footer-div-data {
+    /*display: flex;*/
+    flex-direction: row;
+    justify-content: space-between;
+    width: 182px;
+}
+
+
+.footer-div-data-ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.footer-div-social_list-ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+}
+
+
+
